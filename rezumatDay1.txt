@@ -1,0 +1,41 @@
+2007 - 2008 - begining of clojure
+Day 1
+intro to FP
+environment setup
+- maniera declarativa presupune ca exista deja cunostinte detaliate despre cum se indeplineste declaratia
+- imperativ programing (interactivitate?)
+- declarative programing (recursivitate?)
+
+2 major declarativ prgraming
+a. functional programing
+b. logic programing
+
+
+pass virtual box: clojure!std
+
+								begin Commands
+- C ... (CTRL)
+- M-x (ALT)
+emacs &  --> start editor emacs
+ctrl F11 (enter) --> start REPL server
+ctrl+G (quit)
+								end Commands
+
+Try the following:
+10
+(+ 1 2 3 100 -2.07)
+(/7 10)
+(/7 10.)
+(println "something to say")
+*ns*  --> user
+*1  --> rezultatul ultimelor operatii
+*2
+*3
+*e --> pastreaza ultima eroare
+
+Q: 
+1. o sa fie si in weekend? R: nu
+2. care este ultima zi de training? R: 10 iulie
+3. ce se intampla daca nu pot veni intr-o seara? R: ghinion
+
+

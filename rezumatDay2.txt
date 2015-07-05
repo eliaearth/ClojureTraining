@@ -1,0 +1,87 @@
+Rich Hickey - inventor
+Alonzo Church - Lambda Calculs
+HAskell - Calcul
+
+Functional programing utility:
+- multitreading
+- management de date
+- liste, map, set
+- tipuri primitive
+
+Func prog has:
+- functii primitive
+- functii pure
+- compositie de functii
+- imutabilitate
+   x=3
+
+LISP - List programing
+Clojure is a LISP desinged with functional programing.
+
+
+listele sunt intodeauna reprezentate prin () orice alt ceva  gen [1 2 3] este un vector.
+
+
+3 sintax:
+
+1. atom  (+ 3 5) == > 8 is the atom
+2. simbolic expresions s-expresions ==> (+ 3 5) 
+3. forms - s-exp which are valid ==> (+10 3) is not a form just a s-exp
+4. macros
+5. spetials forms
+6. reader macros
+
+
+Q: ce este REPL? R: Read Eval Print Loop
+
+
+(n%m)/(p%t)*g ==> (/ (%n m) * g (% p t))
+
+
+permite: metaprograming DSL
+
+simbolurile sunt : functii , variabile
+
+
+O entitate are o stare asociata
+O identitate este entitatea cu starea asociata
+
+comments with ;;
+
+orice functie incepe cu litera mica separarea intre cuvinte se face cu '-': my-func
+
+clojure is case sensitive
+
+
+clojure.org/cheatsheet
+
+(doc or)
+(find-doc)
+(apropos)
+(source fn)
+(pst)
+
+
+
+(/ (- (+ 12 42) (/ 20 4)) (+ 1 (* 2 5)))
+
+
+Leiningen - project automation - third party lib, is a standard  pakage management ; leiningen.org
+
+create new project
+
+$ lein new app my-project
+==> project.clj
+$ lein deps
+
+
+
+we do not use for, while we use recursivity instead
+
+declararea unei functii
+
+(fn [a] (+ a 10))
+
+(fn [a] (* a a a))
+
+

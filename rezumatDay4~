@@ -1,0 +1,73 @@
+namespace  is a mapping vars class (java) and simbol
+
+(def x)
+
+definirea unui namespace se face cu "ns"
+
+*ns*
+(ns cucu)
+(def x 3)
+(ns user)
+x
+cucu/x
+(defn my-f[] (prntln "hi"))
+(in-ns cucu)
+(my-f)
+(user/my-f)
+
+
+(defn ....)  - este o mapa, macrou
+(defn- ...)  - este o mapa privata
+
+(defn my-f[] 3)
+
+(my-f[x] (+ x 3))
+
+
+(clojure.repl/doc ns)
+
+
+C+X,F - new file
+C+X,S - save file
+123M - big decimal
+123N - long
+
+
+'(1 2 3) (list 1 2 3)(list ...)
+[1 2 3] (vec '(1 2 3)) (vector 1 2 3)
+mape: {nul 2 :k3}
+seturi: #{1 2 3}
+key: :ke
+
+la mapuri si seturi nu se pastreaza ordinea
+
+
+(playground/make-player "alex" "" "" [])
+
+
+first (into c1)
+second (into c2)
+nth (into [1 2 3])
+
+Iseq  - interfata
+(get () 4) 
+(get :k {})
+
+
+(assoc m :k1 3 :k2 4)
+
+functiile au nume de predicate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
